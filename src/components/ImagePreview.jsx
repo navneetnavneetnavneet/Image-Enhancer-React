@@ -2,6 +2,7 @@ import React from "react";
 import Loading from "./Loading";
 
 const ImagePreview = (props) => {
+  
   return (
     <div className="w-full md:w-2/3 lg:w-1/2 mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 mt-10">
       <div className="relative w-full h-[60vh] shadow-xl bg-white rounded-xl overflow-hidden">
